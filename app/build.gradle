@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.architecturecomponentstutorial'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.architecturecomponentstutorial"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -38,4 +38,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     annotationProcessor 'androidx.room:room-compiler:2.4.3'
     implementation 'androidx.room:room-runtime:2.4.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
 }
